@@ -1,20 +1,17 @@
 {
   "name": "adventofcode",
-  "description": "Solving adventofcode.com puzzles with NodeJS and ES6.",
+  "description": "Learning ES6 while solving advent of code.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NiXXeD/adventofcode"
+    "url": "https://github.com/Abaxial/advent-of-code-2018"
   },
   "version": "1.0.0",
   "author": "Andy Christianson",
   "license": "MIT",
   "scripts": {
     "start": "node index",
-    "test-2015": "mocha 2015/test.js --timeout 30000",
-    "test-2016": "mocha 2016/test.js --timeout 30000",
-    "test-2017": "mocha 2017/test.js --timeout 30000",
     "test-all": "mocha */test.js --timeout 30000",
-    "test": "npm run test-2017",
+    "test": "npm run test-2018",
     "setup": "node setup"
   },
   "engines": {
